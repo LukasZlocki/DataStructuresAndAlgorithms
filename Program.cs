@@ -1,2 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using DataStructure;
+
+
+
+
+// One Dimension Array - extracting names of months
+ArrayOneDimension arrayOneDimension = new ArrayOneDimension();
+arrayOneDimension.CreateOneDomensionArray();
+arrayOneDimension.PresentData();
