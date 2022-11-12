@@ -1,4 +1,5 @@
-﻿namespace DataStructure;
+﻿namespace DataStructuresAndAlgorithms.DataStructure
+{
 
 public class ArrayOneDimension
 { 
@@ -17,4 +18,6 @@ public class ArrayOneDimension
             Console.WriteLine($"{element}");
         }
     }
+}
+
 }
