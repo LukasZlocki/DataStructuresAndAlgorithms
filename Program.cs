@@ -1,9 +1,12 @@
-﻿using DataStructuresAndAlgorithms.DataStructure;
+﻿using DataStructuresAndAlgorithms.Algorithms;
+using DataStructuresAndAlgorithms.DataStructure;
 
-void DoubleSpacer() {
-    Console.WriteLine();
-    Console.WriteLine();
-}
+
+SelectionSorting ss2 = new SelectionSorting();
+ss2.Selection();
+DoubleSpacer();
+
+
 
 // One dimension array - extracting names of months
 Console.WriteLine("One dimension array - extracting names of months");
@@ -18,3 +21,10 @@ ArrayMultiDimension arrayMultiDimension = new ArrayMultiDimension();
 arrayMultiDimension.GenerateMultipleTable();
 arrayMultiDimension.ShowResultsOnScreen();
 DoubleSpacer();
+
+
+
+void DoubleSpacer() {
+    Console.WriteLine();
+    Console.WriteLine();
+}
