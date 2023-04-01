@@ -3,9 +3,13 @@ using DataStructuresAndAlgorithms.DataStructure;
 
 
 SelectionSorting ss2 = new SelectionSorting();
+Console.WriteLine("Table before sorting:");
+ss2.PrintTable();
+Console.WriteLine("Table after sorting");
 ss2.Selection();
-DoubleSpacer();
+ss2.PrintTable();
 
+DoubleSpacer(); // space between the lines
 
 
 // One dimension array - extracting names of months

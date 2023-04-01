@@ -11,7 +11,7 @@ namespace DataStructuresAndAlgorithms.Algorithms
 
     public class SelectionSort
     {
-        int[] sortTable = new int[] {-11, 12, -42, 0, 1, 90, 68, 6, -9};
+        public int[] sortTable = new int[] {-11, 12, -42, 0, 1, 90, 68, 6, -9};
 
         public void SelectionSorting(){
             int minValue = sortTable[0];
